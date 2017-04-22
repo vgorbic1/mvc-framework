@@ -3,14 +3,11 @@
 {% block title %}Home{% endblock %}
 
 {% block body %}
-
-    <h1>Home</h1>
-    <p>Hello dear {{ name }}!</p>
-	<p>Your favorite colors are:</p>
-    <ul>
-        {% for color in colors %}
-            <li>{{ color }}</li>
-        {% endfor %}
-    </ul>
-
+  <div class="container">
+	<div class="row">
+	  <div class="col-12">
+	    <p>The home page</p>
+	  </div>	  
+    </div>
+  </div>
 {% endblock %}
