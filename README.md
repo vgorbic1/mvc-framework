@@ -9,7 +9,7 @@ Twig framework is used as a templating engine and Twitter Bootstrap 4 as
 a front-end templating framework. The form has a back-end string sanitizing
 and validation mechanisms.
 
-The website is deployed on appache server. [Demo](http://mvc.gorbich.com) site 
+The website is deployed on Apache web server. [Demo](http://mvc.gorbich.com) site 
 is available for a visual reference.
 
 ### Process
