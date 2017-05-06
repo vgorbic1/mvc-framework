@@ -5,34 +5,43 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>{% block title %}{% endblock %}</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
 </head>
-<body class="bg-faded">
-    <nav class="navbar navbar-toggleable-md navbar-inverse bg-primary">
-	  <div class="container">
+<body>
+<div class="bg-primary">
+  <div class="container">		
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-primary">	  
 	  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-	  <a class="navbar-brand" href="#">MVC</a>
+	  <a class="navbar-brand" href="/">LOGO</a>
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-		<ul class="navbar-nav mr-auto">
-			<li class="nav-item active">
-				<a class="nav-link" href="/">Home</a>
-			</li>
-		</ul>
-		<form class="form-inline my-2 my-lg-0">
-			<input class="form-control mr-sm-2" type="text" placeholder="Search">
-			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-		</form>
+
+		{% block navbar %}
+	  {% endblock %}
+
 	  </div>
-	  </div>
-    </nav>
-	
+    </nav>		
+  </div>
+</div>
+
     {% block body %}
     {% endblock %} 
+	
+	<footer class="">
+		{% block footer %}
+		<nav class="navbar fixed-bottom bg-primary">
+			<div class="container">
+				<div class="col-12 mt-2">
+					<p style="color:white">&copy; 2017 by Company. All rights reserved.</p>
+				</div>
+			</div>
+		</nav>
+		{% endblock %}
+	</footer>
 
-	<script src="js/jquery.min.js"></script>
-	<script src="js/tether.min.js"></script>
-	<script src="js/bootstrap.js"></script>
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/tether.min.js"></script>
+	<script src="/js/bootstrap.js"></script>
 </body>
 </html>

@@ -1,4 +1,19 @@
-## A Skeleton MVC Framework with Advanced Routing
+## A Skeleton MVC Framework with Advanced Routing and Contact Form
+### Business Requirements
+Create a basic website skeleton with a functional contact form.
+
+### Delivery
+The website is a basic application based on MVC design pattern. The
+code is written on PHP and requires any Web Server to run. 
+Twig framework is used as a templating engine and Twitter Bootstrap 4 as
+a front-end templating framework. The form has a back-end string sanitizing
+and validation mechanisms.
+
+The website is deployed on appache server. [Demo](http://mvc.gorbich.com) site 
+is available for a visual reference.
+
+### Process
+
 ### Structure
 - Create the MVC folder structure. Make public the web root directory.
 ### Routing
@@ -19,16 +34,3 @@
 - Create a base view class.
 - Crate base template and blocks.
 - In controllers call views and pass parameters.
-
-To Do:
-
-### Models
-- Create database and check connection
-- Add an abstract Model and extend it in other Models.
-### Configuration
-- Put configuration settings in a separate file.
-### Error Handling
-- Create a mechanism to convert Errors to Exceptions.
-- Categorize different tipe of errors.
-- Add views to display error reports.
-- Make a logging errors mechanism.

@@ -15,16 +15,15 @@ spl_autoload_register(function ($class) {
     $file = $root . '/' .str_replace('\\', '/', $class) . '.php';
     if (is_readable($file)) {
         require $root . '/' . str_replace('\\', '/', $class) . '.php';
-    } 
+    } else {
+		die("Uh-oh!");
+	} 
 });
  
 // Routing
 $router = new core\Router();
 $router->addRoute('', ['controller' => 'Home', 'action' => 'index']);
+$router->addRoute('services', ['controller' => 'Services', 'action' => 'index']);
+$router->addRoute('contact', ['controller' => 'Contact', 'action' => 'index']);
 $router->addRoute('{controller}/{action}');
 $router->dispatch($_SERVER['QUERY_STRING']);
-
-
-
-
-

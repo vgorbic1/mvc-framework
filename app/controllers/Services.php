@@ -5,9 +5,9 @@ namespace app\controllers;
 use \core\View;
 
 /**
- * Home controller
+ * Services controller
  */
-class Home extends \core\Controller {
+class Services extends \core\Controller {
 
     // Before filter
     protected function before() { }
@@ -17,6 +17,9 @@ class Home extends \core\Controller {
 
     // Show the index page
     public function indexAction() {
-        view::renderTemplate('home/index.html');
+        view::renderTemplate('services/index.html', [
+            'name' => 'Vlad',
+            'colors' => ['red', 'green', 'blue']
+        ]);
     }	
 }
