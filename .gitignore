@@ -1,4 +1,5 @@
 ## Ignore:
 
-vendor/Twig**
-public/scss**
+vendor/Twig/*
+public/scss/*
+logs/*

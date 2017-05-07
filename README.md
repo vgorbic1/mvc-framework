@@ -4,7 +4,7 @@ Create a basic website skeleton with a functional contact form.
 
 ### Delivery
 The website is a basic application based on MVC design pattern. The
-code is written on PHP and requires any Web Server to run. 
+code is written in PHP and requires any Web Server to run. 
 Twig framework is used as a templating engine and Twitter Bootstrap 4 as
 a front-end templating framework. The form has a back-end string sanitizing
 and validation mechanisms.
