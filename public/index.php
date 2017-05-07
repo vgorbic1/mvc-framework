@@ -19,6 +19,11 @@ spl_autoload_register(function ($class) {
 		die("Uh-oh!");
 	} 
 });
+
+// Error and Exception handling
+error_reporting(E_ALL);
+set_error_handler('core\Error::errorHandler');
+set_exception_handler('core\Error::exceptionHandler');
  
 // Routing
 $router = new core\Router();

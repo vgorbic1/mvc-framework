@@ -1,0 +1,46 @@
+[07-May-2017 14:57:51 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: '#0 D:\xampp\htdocs\vhosts\mvc2\public\index.php(34): core\Router->dispatch('f')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\vhosts\mvc2\core\Router.php' on line 84
+[07-May-2017 14:57:51 Europe/Berlin] PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'Unable to find template "errors/404.html" (looked into: ../app/views).' in D:\xampp\htdocs\vhosts\mvc2\vendor\Twig\lib\Twig\Loader\Filesystem.php:247
+Stack trace:
+#0 D:\xampp\htdocs\vhosts\mvc2\vendor\Twig\lib\Twig\Loader\Filesystem.php(159): Twig_Loader_Filesystem->findTemplate('errors/404.html')
+#1 D:\xampp\htdocs\vhosts\mvc2\vendor\Twig\lib\Twig\Environment.php(329): Twig_Loader_Filesystem->getCacheKey('errors/404.html')
+#2 D:\xampp\htdocs\vhosts\mvc2\vendor\Twig\lib\Twig\Environment.php(418): Twig_Environment->getTemplateClass('errors/404.html', NULL)
+#3 D:\xampp\htdocs\vhosts\mvc2\vendor\Twig\lib\Twig\Environment.php(362): Twig_Environment->loadTemplate('errors/404.html')
+#4 D:\xampp\htdocs\vhosts\mvc2\core\View.php(17): Twig_Environment->render('errors/404.html', Array)
+#5 D:\xampp\htdocs\vhosts\mvc2\core\Error.php(54): core\View::renderTemplate('errors/404.html')
+#6 [internal function]: core\Error::exceptionHandler(Object(Exception))
+#7 {main}
+  thro in D:\xampp\htdocs\vhosts\mvc2\vendor\Twig\lib\Twig\Loader\Filesystem.php on line 247
+[07-May-2017 14:57:51 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: '#0 D:\xampp\htdocs\vhosts\mvc2\public\index.php(34): core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\vhosts\mvc2\core\Router.php' on line 84
+[07-May-2017 14:57:51 Europe/Berlin] PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'Unable to find template "errors/404.html" (looked into: ../app/views).' in D:\xampp\htdocs\vhosts\mvc2\vendor\Twig\lib\Twig\Loader\Filesystem.php:247
+Stack trace:
+#0 D:\xampp\htdocs\vhosts\mvc2\vendor\Twig\lib\Twig\Loader\Filesystem.php(159): Twig_Loader_Filesystem->findTemplate('errors/404.html')
+#1 D:\xampp\htdocs\vhosts\mvc2\vendor\Twig\lib\Twig\Environment.php(329): Twig_Loader_Filesystem->getCacheKey('errors/404.html')
+#2 D:\xampp\htdocs\vhosts\mvc2\vendor\Twig\lib\Twig\Environment.php(418): Twig_Environment->getTemplateClass('errors/404.html', NULL)
+#3 D:\xampp\htdocs\vhosts\mvc2\vendor\Twig\lib\Twig\Environment.php(362): Twig_Environment->loadTemplate('errors/404.html')
+#4 D:\xampp\htdocs\vhosts\mvc2\core\View.php(17): Twig_Environment->render('errors/404.html', Array)
+#5 D:\xampp\htdocs\vhosts\mvc2\core\Error.php(54): core\View::renderTemplate('errors/404.html')
+#6 [internal function]: core\Error::exceptionHandler(Object(Exception))
+#7 {main}
+  thro in D:\xampp\htdocs\vhosts\mvc2\vendor\Twig\lib\Twig\Loader\Filesystem.php on line 247
+[07-May-2017 14:58:47 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: '#0 D:\xampp\htdocs\vhosts\mvc2\public\index.php(34): core\Router->dispatch('f')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\vhosts\mvc2\core\Router.php' on line 84
+[07-May-2017 15:00:30 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: '#0 D:\xampp\htdocs\vhosts\mvc2\public\index.php(34): core\Router->dispatch('f')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\vhosts\mvc2\core\Router.php' on line 84
+[07-May-2017 15:00:46 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: '#0 D:\xampp\htdocs\vhosts\mvc2\public\index.php(34): core\Router->dispatch('f')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\vhosts\mvc2\core\Router.php' on line 84
+[07-May-2017 15:04:52 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: '#0 D:\xampp\htdocs\vhosts\mvc2\public\index.php(34): core\Router->dispatch('f')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\vhosts\mvc2\core\Router.php' on line 84
